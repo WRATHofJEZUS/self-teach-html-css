@@ -1,5 +1,11 @@
 :root {
+    --logo-background: #FCF6F1;
+    --logo-blue: #2A9ECA;
+    --logo-orange: #ED760A;
+}
 
+html {
+    background-color: var(--logo-background);
 }
 
 body {
