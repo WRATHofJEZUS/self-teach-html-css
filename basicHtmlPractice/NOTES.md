@@ -20,3 +20,18 @@ Semantic HTML Cheatsheet...basically
 <abbr> defines abbreviations with a "title" attribute for expanded meaning
 
 FlexBox and Grid
+
+-display: flex || display: inline-flex, enables flex layout on the container
+-flex-direction, defines the main axis (row, row-reverse, column, column-reverse)
+-flex-wrap, controls wrapping (nowrap, wrap, wrap-reverse)
+-flex-flow, shorthand for flex-direction and flex-wrap
+-justify-content, aligns items along the main axis
+-align-items, aligns items along the cross axis
+-align-content, controls spacing between lines when wrapping
+
+-order, changes visual order of items
+-flex-grow, defines how much a flex item grows relative to others
+-flex-shrink, defines how much a flex item shrinks if necessary
+-flex-basis, sets the intial size before space distribution
+-flex, shorthand for flex-grow, flex-shrink, flex-basis, ie flex: 1 1 200px
+-align-self, overrides align-items for individual items
