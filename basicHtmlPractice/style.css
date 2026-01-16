@@ -16,5 +16,20 @@ body {
 #site-logo {
     width: 200px;
     height: auto;
+    display: flex;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
 }
 
+.header-link {
+
+}
+
+#main-header {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
